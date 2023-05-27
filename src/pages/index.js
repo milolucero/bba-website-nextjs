@@ -173,7 +173,7 @@ export default function Home() {
           {/* Color palette */}
           <p className="my-4 text-3xl font-bold">Color palette</p>
           <p className="my-2 text-xl font-bold">CSS variables</p>
-          <div className="flex">
+          <div className="flex flex-wrap">
             <div
               className="mb-10 mr-10 flex flex-col"
               style={{
@@ -336,7 +336,7 @@ export default function Home() {
           </div>
 
           <p className="my-2 text-xl font-bold">Tailwind classes</p>
-          <div className="flex">
+          <div className="flex flex-wrap">
             <div
               className="mb-10 mr-10 flex flex-col text-light-font"
               style={{
@@ -432,7 +432,7 @@ export default function Home() {
           <div className="my-10">
             <HeadingBBAStyle>Follow us on Instagram</HeadingBBAStyle>
             <HeadingBBAStyle
-              className="text-[2.5rem] font-bold text-primary"
+              className="text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] font-bold text-primary"
               inverted={true}
             >
               @rrcbba

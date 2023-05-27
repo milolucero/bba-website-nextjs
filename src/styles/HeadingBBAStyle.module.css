@@ -35,3 +35,10 @@
   left: auto;
   right: calc(-0.5 * var(--size));
 }
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .wrapper {
+    --side-margin: 3rem;
+  }
+}
